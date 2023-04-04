@@ -30,8 +30,6 @@ MonoBehaviour:
     referenceMode: 2
     serializationDepthLimit: 64
     assemblyNames:
-    - AlmostEngine
-    - AlmostEngine.Shared
     - Assembly-CSharp
     - Assembly-CSharp-firstpass
     showAdvancedSettings: 0

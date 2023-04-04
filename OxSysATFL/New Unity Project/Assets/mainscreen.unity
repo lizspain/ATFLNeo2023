@@ -1236,6 +1236,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rawimage: {fileID: 435896306}
+  webCamTexture: {fileID: 0}
   webCamDisplayText: {fileID: 1524645217}
 --- !u!114 &952411437
 MonoBehaviour:
@@ -1254,6 +1255,7 @@ MonoBehaviour:
   imageHeight: 512
   savePath: Assets/Images/
   captureButton: {fileID: 1126834297}
+  webCamTexture: {fileID: 0}
 --- !u!1 &1037703525
 GameObject:
   m_ObjectHideFlags: 0
@@ -2800,7 +2802,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: Register Competitor
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -8675,10 +8677,18 @@ PrefabInstance:
     - target: {fileID: 3111797602930776648, guid: bbb5c1a987598473fb70f623b5c8756f, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 397060a1d8b0bb549aefb5043d5081c9, type: 3}
+      objectReference: {fileID: 21300000, guid: c42afa1dd8c44d0499013e6704de0baf, type: 3}
+    - target: {fileID: 3111797602930776648, guid: bbb5c1a987598473fb70f623b5c8756f, type: 3}
+      propertyPath: m_PreserveAspect
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3111797602930776649, guid: bbb5c1a987598473fb70f623b5c8756f, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 247.635
+      value: 230
+      objectReference: {fileID: 0}
+    - target: {fileID: 3111797602930776649, guid: bbb5c1a987598473fb70f623b5c8756f, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 180
       objectReference: {fileID: 0}
     - target: {fileID: 3111797602930776649, guid: bbb5c1a987598473fb70f623b5c8756f, type: 3}
       propertyPath: m_AnchoredPosition.x
