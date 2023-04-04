@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 4723f0ac0ad633546bb319e0f7e8f07a
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - LineTech
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: c61c174c7a3950f4491215aa5f7b8766, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

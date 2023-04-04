@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 1e2236f6cbc38044c989404d81902dc9
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Cyber
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 769666502f77ffe4a970ff799924be81, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

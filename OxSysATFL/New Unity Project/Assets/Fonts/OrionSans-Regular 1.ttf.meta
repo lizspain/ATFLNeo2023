@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 544498b7b5b3e4b42b69c1fd07196138
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Orion Sans
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: c49e38d1ad4ba8944ad1749be3225232, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
