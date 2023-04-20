@@ -1745,7 +1745,6 @@ GameObject:
   - component: {fileID: 952411434}
   - component: {fileID: 952411433}
   - component: {fileID: 952411437}
-  - component: {fileID: 952411436}
   m_Layer: 5
   m_Name: PhotoBits
   m_TagString: Untagged
@@ -1839,21 +1838,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 952411431}
   m_CullTransparentMesh: 1
---- !u!114 &952411436
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 952411431}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a0057eca374c4d54d84fdfefa48e4466, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rawimage: {fileID: 435896306}
-  webCamTexture: {fileID: 0}
-  webCamDisplayText: {fileID: 1524645217}
 --- !u!114 &952411437
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1866,12 +1850,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36d8c872af43461499f3c58cd045dc86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  imageDisplay: {fileID: 435896306}
-  imageWidth: 512
-  imageHeight: 512
-  savePath: Assets/Images/
-  captureButton: {fileID: 1126834297}
-  webCamTexture: {fileID: 0}
 --- !u!1 &1037703525
 GameObject:
   m_ObjectHideFlags: 0
@@ -2170,18 +2148,6 @@ MonoBehaviour:
       - m_Target: {fileID: 2642941779905692186}
         m_TargetAssemblyTypeName: NewBehaviourScript, Assembly-CSharp
         m_MethodName: IveBeenClicked
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 952411437}
-        m_TargetAssemblyTypeName: PicCapture, Assembly-CSharp
-        m_MethodName: TakePicture
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5602,7 +5568,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 952411436}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: IDwebcams, Assembly-CSharp
         m_MethodName: GoWebCam01
         m_Mode: 1
