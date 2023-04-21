@@ -1,0 +1,5 @@
+OxSysATFL/New filter=lfs diff=lfs merge=lfs -text
+Unity filter=lfs diff=lfs merge=lfs -text
+Project/Library/ArtifactDB filter=lfs diff=lfs merge=lfs -text
+OxSysATFL/New[[:space:]]Unity[[:space:]]Project/Library/ArtifactDB filter=lfs diff=lfs merge=lfs -text
+OxSysATFL/New[[:space:]]Unity[[:space:]]Project/Library/Artifacts/21/21fe2850504296253b73430c7531a94e filter=lfs diff=lfs merge=lfs -text
