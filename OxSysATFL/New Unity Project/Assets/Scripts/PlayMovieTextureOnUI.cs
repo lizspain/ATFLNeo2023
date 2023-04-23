@@ -1,17 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
-
-public class PlayMovieTextureOnUI : MonoBehaviour
-{
-        public RawImage rawimage;
-
-        void Start()
-        {
-            WebCamTexture webcamTexture = new WebCamTexture();
-            rawimage.texture = webcamTexture;
-            rawimage.material.mainTexture = webcamTexture;
-            webcamTexture.Play();
-        }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6e1e482e72d988f19838753d78260e7c6bb4f5d033141469783a43d2d949d5aa
+size 627
